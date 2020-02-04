@@ -26,6 +26,7 @@ function isLucky(n) {
     }
 }
 
+// someone smarter than me's solution
 function isLucky(n) {
     var a=(n+"").split(""),half=a.length/2,l=0,r=0
     while(a.length>half) r+= +a.pop()
