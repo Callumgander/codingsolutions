@@ -13,5 +13,5 @@ function alternatingSums(a) {
   return [sum1, sum2];
 }
 
-// a better one
+// someone smarter than me
 alternatingSums = a => a.reduce((p, v, i) => ((p[i & 1] += v), p), [0, 0]);
