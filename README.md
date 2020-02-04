@@ -1,5 +1,5 @@
 # codingsolutions
-A repo for all of my solutions to coding problems
+This is a repo for all of my solutions to coding problems
 
 All problems are taken from either codesignal.com or hackerrank.com
 
