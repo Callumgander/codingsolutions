@@ -10,8 +10,8 @@ for a0 in range(t):
     k = int(input().strip())
    
     def sum_factors_of_n_below_k(k, n):
-        m = (k-1) // n
-        return n * m * (m+1) // 2
+        m = (k - 1) // n
+        return n * m * (m + 1) // 2
 
     def solution_01(k):
         print(sum_factors_of_n_below_k(k, 3) + 
